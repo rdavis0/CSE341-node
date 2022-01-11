@@ -1,0 +1,15 @@
+{
+  "name": "section-02",
+  "version": "1.0.0",
+  "description": "CSE 341 Section 02",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Ryan Davis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
