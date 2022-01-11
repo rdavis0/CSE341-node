@@ -1,0 +1,34 @@
+After completing the assignment, be sure to push to Github. You do not have to worry about pushing to Heroku this lesson.
+Please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your source code repository (e.g., GitHub):
+https://github.com/rdavis0/CSE-340
+
+3. Briefly list and describe the elements of the application that are functioning. 
+    - Hand-built node.js server
+    - Page that takes user input as a POST request and saves it to a file
+    - some basic error handling
+    - set up node debugging and other useful tools like nodemon
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+    None
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+    I learned a lot about how node uses an asynchronous paradigm. While I haven't fully wrapped my head around the concepts yet,
+    I'm interested to continue learning how it works and how it is beneficial in creating fast, scalable web applications.
+
+6. If you could change this assignment to be more effective or helpful, what would you change?
+    The instructions and course materials could be a lot clearer. There is a lot of contradictory and/or missing instructions.
+    While I understand the course has been or is being updated, it feels like nobody took the time to review the materials, and instead
+    the students are being used as in-production QA testers.
+
+7. Please select the category you feel best describes your assignment:
+   1 - Some attempt was made
+   2 - Developing, but significantly deficient
+   3 - Slightly deficient, but still mostly adequate
+   **4 - Meets requirements
+   5 - Shows creativity and excels above and beyond requirements
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+    I followed along with the videos and did everything there was to do. I would have liked to rate myself a 5,
+    but I didn't see much opportunity to be creative and excel in such a basic set-up assignment.
