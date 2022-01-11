@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            // always start debugger with this file
+            "program": "${workspaceFolder}\\section-01\\my-first-server.js",
+            // sets debugger to restart when code is changed
+            "restart": true,
+            // use nodemon instead of node (must install globally)
+            "runtimeExecutable": "nodemon",
+            // use this if runtimeExecutable is set
+            "console": "integratedTerminal"           
+        }
+    ]
+}

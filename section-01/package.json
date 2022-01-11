@@ -1,0 +1,15 @@
+{
+  "name": "section-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "first-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon my-first-server.js"
+  },
+  "author": "Ryan Davis",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
