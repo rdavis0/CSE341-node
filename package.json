@@ -5,6 +5,7 @@
         "start-server": "node app.js"
     },
     "dependencies": {
+        "mongodb": "^4.3.1",
         "nodemon": "^2.0.15"
     }
 }
