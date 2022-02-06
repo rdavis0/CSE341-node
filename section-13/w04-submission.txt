@@ -3,27 +3,26 @@ Please answer the questions in this text file and submit it to I-Learn.
 
 1. Copy and paste the URL for your source code repository (e.g., GitHub):
 https://github.com/rdavis0/CSE341-node
+https://cse341-rd.herokuapp.com/
 
 3. Briefly list and describe the elements of the application that are functioning. 
-    - Refactored everything into MVC pattern
-    - Navigation enhancements
-    - Add, edit, and delete products
-    - Cart functionality
-    - View products
+    - Set up MongoDB
+    - Refactored everything to use mongoose
+    - Add products
+    - Add to cart, view cart
+    - Place order (clears cart)
 
 4. Briefly describe any pieces of the assignment that are not yet working correctly.
     None
 
 5. Briefly describe the "coolest" thing you learned while completing this assignment.
-    I enjoyed getting a lot more practice with asynchronous functions. I have used them a few times before
-    in Javascript, but they are difficult to wrap my head around, so it was helpful using them
-    for various pieces of this assignement.
+    The concept of a NoSQL database is very slick. It's so flexible compared to a SQL database,
+    yet with mogoose you can enforce some structure akin to a SQL database where useful. I'm looking
+    forward to using MongoDB and mongoose in future projects to get up and running quickly.
 
 6. If you could change this assignment to be more effective or helpful, what would you change?
-    Nothing on BYU-I's end this week, but I wish the course instructor gave a better overview
-    of how to accomplish the thing he wants to do before diving into the code. He kind of 
-    architects while he's coding, so it can be difficult to have a picture of why he's doing 
-    what he's doing until it's all done.
+    It was a lot to take in all at once. The workload increased significantly compared to previous weeks, especially
+    with having to get the project running on Heroku AND adding the database to Heroku all at once.
 
 7. Please select the category you feel best describes your assignment:
    1 - Some attempt was made
