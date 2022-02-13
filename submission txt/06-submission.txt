@@ -1,0 +1,31 @@
+After completing the assignment, be sure to push to Github. You do not have to worry about pushing to Heroku this lesson.
+Please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your source code repository (e.g., GitHub):
+https://github.com/rdavis0/CSE341-node
+https://cse341-rd.herokuapp.com/
+
+3. Briefly list and describe the elements of the application that are functioning. 
+    - Authentication
+    - Password reset
+    - Input validation
+    - Error handling
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+    None
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+    Express validator is a really useful tool for quickly validating common kinds of input. These kinds of prebuilt libraries and functions are what I am really enjoying about working with Node and Express so far. It's nice to avoid a lot of boiler plate code, and/or reinventing the wheel with difficult concepts that others have already solved before you.
+
+6. If you could change this assignment to be more effective or helpful, what would you change?
+    There was a lot of repetition that didn't feel necessary. Most of what was covered here was fairly basic, just walking us through how to use certain packages. If the requried material filtered out a few of those repetitive tasks, I feel like my time would have been bettet spent.
+
+7. Please select the category you feel best describes your assignment:
+   1 - Some attempt was made
+   2 - Developing, but significantly deficient
+   3 - Slightly deficient, but still mostly adequate
+   **4 - Meets requirements
+   5 - Shows creativity and excels above and beyond requirements
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+    I followed along with the videos and did everything there was to do.
