@@ -1,0 +1,29 @@
+Please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your source code repository (e.g., GitHub):
+https://github.com/rdavis0/CSE341-node
+https://cse341-rd.herokuapp.com/
+
+3. Briefly list and describe the elements of the application that are functioning. 
+    - Fully functioning app based on Prove 1-6
+    - Updated personalized stylesheet
+    - Added wishlist function
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+    None
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+    Didn't really learn anything new, but the extra freestyle practice was very valuable.
+
+6. If you could change this assignment to be more effective or helpful, what would you change?
+    No changes
+
+7. Please select the category you feel best describes your assignment:
+   1 - Some attempt was made
+   2 - Developing, but significantly deficient
+   3 - Slightly deficient, but still mostly adequate
+   4 - Meets requirements
+   **5 - Shows creativity and excels above and beyond requirements
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+    I spruced up the styling a bit and gave it some of my own flavor. I also added a wishlist function.

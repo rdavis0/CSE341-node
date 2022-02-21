@@ -146,3 +146,53 @@ exports.getOrders = (req, res, next) => {
             return next(error);
         });
 };
+
+exports.getWishlist = (req, res, next) => {
+    req.user
+        .populate('cart.items.productId')
+        .execPopulate()
+        .then(user => {
+            const products = user.cart.items;
+            res.render('shop/wishlist', {
+                path: '/wishlist',
+                pageTitle: 'Your Wishlist',
+                products: products
+            });
+        })
+        .catch(err => {
+            const error = new Error(err);
+            error.httpStatusCode = 500;
+            return next(error);
+        });
+};
+
+exports.postWishlistAddProduct = (req, res, next) => {
+    const prodId = req.body.productId;
+    Product.findById(prodId)
+        .then(product => {
+            return req.user.addToCart(product);
+        })
+        .then(result => {
+            console.log(result);
+            res.redirect('/cart');
+        })
+        .catch(err => {
+            const error = new Error(err);
+            error.httpStatusCode = 500;
+            return next(error);
+        });
+};
+
+exports.postWishlistDeleteProduct = (req, res, next) => {
+    // const prodId = req.body.productId;
+    // req.user
+    //     .removeFromCart(prodId)
+    //     .then(result => {
+    //         res.redirect('/cart');
+    //     })
+    //     .catch(err => {
+    //         const error = new Error(err);
+    //         error.httpStatusCode = 500;
+    //         return next(error);
+    //     });
+};
