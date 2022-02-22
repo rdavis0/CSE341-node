@@ -249,6 +249,11 @@ form {
     color: white;
 }
 
+.btn_fa {
+    border: none;
+    background-color: transparent;
+}
+
 .user-message {
     margin: auto;
     width: 90%;

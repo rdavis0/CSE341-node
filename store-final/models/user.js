@@ -22,6 +22,16 @@ const userSchema = new Schema({
             },
             quantity: { type: Number, required: true }
         }]
+    },
+    wishlist: {
+        items: [{
+            productId: {
+                type: Schema.Types.ObjectId,
+                ref: 'Product',
+                required: true
+            },
+
+        }]
     }
 });
 
@@ -58,6 +68,26 @@ userSchema.methods.removeFromCart = function(productId) {
 
 userSchema.methods.clearCart = function() {
     this.cart = { items: [] };
+    return this.save();
+};
+
+userSchema.methods.addToWishlist = function(product) {
+    const updatedWishlistItems = [...this.wishlist.items];
+    updatedWishlistItems.push({
+        productId: product._id
+    });
+    const updatedWishlist = {
+        items: updatedWishlistItems
+    };
+    this.wishlist = updatedWishlist;
+    return this.save();
+};
+
+userSchema.methods.removeFromWishlist = function(productId) {
+    const updatedWishlistItems = this.wishlist.items.filter(item => {
+        return item.productId.toString() !== productId.toString();
+    });
+    this.wishlist.items = updatedWishlistItems;
     return this.save();
 };
 
