@@ -1,5 +1,6 @@
 const path = require('path');
-const cors = require('cors') // Place this with other requires (like 'path' and 'express')
+const cors = require('cors'); // Place this with other requires (like 'path' and 'express')
+require('dotenv').config();
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -14,12 +15,7 @@ const User = require('./models/user');
 
 const PORT = process.env.PORT || 3000; // So we can run on heroku || localhost:3000
 
-const MONGODB_URL =
-    process.env.MONGODB_URL ||
-    "mongodb+srv://rdavis:mvxezSmZb1wSWUR1@cluster0.pbeyn.mongodb.net/shop?retryWrites=true&w=majority";
-
-// const MONGODB_URI =
-//     'mongodb+srv://maximilian:9u4biljMQc4jjqbe@cluster0-ntrwp.mongodb.net/shop';
+const MONGODB_URL = process.env.DB;
 
 const app = express();
 
